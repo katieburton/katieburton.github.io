@@ -1,0 +1,16 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/roneillabumanlag/GitHub/katieburton.github.io/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_0d281b30"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/roneillabumanlag/GitHub/katieburton.github.io/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_1923cd2d"
+  }
+]
