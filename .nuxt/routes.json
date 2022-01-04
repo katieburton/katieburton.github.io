@@ -3,14 +3,48 @@
     "name": "about",
     "path": "/about",
     "component": "/Users/roneillabumanlag/GitHub/katieburton.github.io/pages/about.vue",
-    "chunkName": "pages/about",
-    "_name": "_0d281b30"
+    "chunkName": "pages/about"
+  },
+  {
+    "name": "gallery",
+    "path": "/gallery",
+    "component": "/Users/roneillabumanlag/GitHub/katieburton.github.io/pages/gallery.vue",
+    "chunkName": "pages/gallery"
+  },
+  {
+    "name": "hackville",
+    "path": "/hackville",
+    "component": "/Users/roneillabumanlag/GitHub/katieburton.github.io/pages/hackville.vue",
+    "chunkName": "pages/hackville"
+  },
+  {
+    "name": "kdb",
+    "path": "/kdb",
+    "component": "/Users/roneillabumanlag/GitHub/katieburton.github.io/pages/kdb.vue",
+    "chunkName": "pages/kdb"
+  },
+  {
+    "name": "nob",
+    "path": "/nob",
+    "component": "/Users/roneillabumanlag/GitHub/katieburton.github.io/pages/nob.vue",
+    "chunkName": "pages/nob"
+  },
+  {
+    "name": "spark",
+    "path": "/spark",
+    "component": "/Users/roneillabumanlag/GitHub/katieburton.github.io/pages/spark.vue",
+    "chunkName": "pages/spark"
+  },
+  {
+    "name": "sweetDelights",
+    "path": "/sweetDelights",
+    "component": "/Users/roneillabumanlag/GitHub/katieburton.github.io/pages/sweetDelights.vue",
+    "chunkName": "pages/sweetDelights"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/roneillabumanlag/GitHub/katieburton.github.io/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_1923cd2d"
+    "chunkName": "pages/index"
   }
 ]

@@ -5,6 +5,12 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _0d281b30 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
+const _63ab9226 = () => interopDefault(import('../pages/gallery.vue' /* webpackChunkName: "pages/gallery" */))
+const _d55797a8 = () => interopDefault(import('../pages/hackville.vue' /* webpackChunkName: "pages/hackville" */))
+const _dc58d878 = () => interopDefault(import('../pages/kdb.vue' /* webpackChunkName: "pages/kdb" */))
+const _434b945c = () => interopDefault(import('../pages/nob.vue' /* webpackChunkName: "pages/nob" */))
+const _2a5799b8 = () => interopDefault(import('../pages/spark.vue' /* webpackChunkName: "pages/spark" */))
+const _6db0bc49 = () => interopDefault(import('../pages/sweetDelights.vue' /* webpackChunkName: "pages/sweetDelights" */))
 const _1923cd2d = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -22,6 +28,30 @@ export const routerOptions = {
     path: "/about",
     component: _0d281b30,
     name: "about"
+  }, {
+    path: "/gallery",
+    component: _63ab9226,
+    name: "gallery"
+  }, {
+    path: "/hackville",
+    component: _d55797a8,
+    name: "hackville"
+  }, {
+    path: "/kdb",
+    component: _dc58d878,
+    name: "kdb"
+  }, {
+    path: "/nob",
+    component: _434b945c,
+    name: "nob"
+  }, {
+    path: "/spark",
+    component: _2a5799b8,
+    name: "spark"
+  }, {
+    path: "/sweetDelights",
+    component: _6db0bc49,
+    name: "sweetDelights"
   }, {
     path: "/",
     component: _1923cd2d,

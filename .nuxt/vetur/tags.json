@@ -1,9 +1,18 @@
 {
+  "CaseStudyCard": {
+    "description": "Auto imported from components/CaseStudyCard.vue"
+  },
+  "CaseStudyMenu": {
+    "description": "Auto imported from components/CaseStudyMenu.vue"
+  },
   "Footer": {
     "description": "Auto imported from components/Footer.vue"
   },
   "Gallery": {
     "description": "Auto imported from components/Gallery.vue"
+  },
+  "ImageLightbox": {
+    "description": "Auto imported from components/ImageLightbox.vue"
   },
   "Nav": {
     "description": "Auto imported from components/Nav.vue"
