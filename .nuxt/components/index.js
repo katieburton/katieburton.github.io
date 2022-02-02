@@ -1,9 +1,9 @@
-export const CaseStudyCard = () => import('../../components/CaseStudyCard.vue' /* webpackChunkName: "components/case-study-card" */).then(c => wrapFunctional(c.default || c))
-export const CaseStudyMenu = () => import('../../components/CaseStudyMenu.vue' /* webpackChunkName: "components/case-study-menu" */).then(c => wrapFunctional(c.default || c))
-export const Footer = () => import('../../components/Footer.vue' /* webpackChunkName: "components/footer" */).then(c => wrapFunctional(c.default || c))
-export const Gallery = () => import('../../components/Gallery.vue' /* webpackChunkName: "components/gallery" */).then(c => wrapFunctional(c.default || c))
-export const ImageLightbox = () => import('../../components/ImageLightbox.vue' /* webpackChunkName: "components/image-lightbox" */).then(c => wrapFunctional(c.default || c))
-export const Nav = () => import('../../components/Nav.vue' /* webpackChunkName: "components/nav" */).then(c => wrapFunctional(c.default || c))
+export { default as CaseStudyCard } from '../../components/CaseStudyCard.vue'
+export { default as CaseStudyMenu } from '../../components/CaseStudyMenu.vue'
+export { default as Footer } from '../../components/Footer.vue'
+export { default as Gallery } from '../../components/Gallery.vue'
+export { default as ImageLightbox } from '../../components/ImageLightbox.vue'
+export { default as Nav } from '../../components/Nav.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

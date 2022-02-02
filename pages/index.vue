@@ -2,7 +2,7 @@
   <div class="p-4 w-full">
     <div class="hero flex flex-col justify-center items-center w-full">
       <div class="flex justify-center items-center">
-        <h1 class="uppercase text-9xl">Katie Burton</h1>
+        <h1 class="uppercase">Katie Burton</h1>
       </div>
 
       <div
@@ -40,6 +40,17 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+  font-size: 10rem;
+}
+@screen md {
+  h1 {
+    font-size: 20rem;
+    line-height: 15rem;
+    text-align: center;
+  }
+}
+
 .hero {
   height: 80vh;
 }

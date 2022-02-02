@@ -49,8 +49,8 @@ export default {
 .thumbnail-left,
 .thumbnail-right {
   position: absolute;
-  max-height: 300px;
-  max-width: 300px;
+  max-height: 50vh;
+  max-width: 50vw;
   object-fit: contain;
   opacity: 0;
   z-index: -1;
@@ -67,12 +67,12 @@ export default {
 }
 
 .thumbnail-left {
-  top: 0;
+  top: 25%;
   left: 2rem;
   transform: rotate(-15deg);
 }
 .thumbnail-right {
-  bottom: 0;
+  top: 0;
   right: 2rem;
   transform: rotate(15deg);
 }
