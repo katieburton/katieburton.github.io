@@ -17,6 +17,7 @@
 <script>
 import Nav from "./Nav.vue";
 export default {
+  props: ["showCTA"],
   components: { Nav },
 };
 </script>

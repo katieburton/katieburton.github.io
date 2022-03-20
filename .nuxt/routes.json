@@ -2,57 +2,64 @@
   {
     "name": "about",
     "path": "/about",
-    "component": "/Users/roneillabumanlag/GitHub/katieburton.github.io/pages/about.vue",
+    "component": "C:\\\\Users\\\\ronei\\\\Documents\\\\GitHub\\\\katieburton.github.io\\\\pages\\\\about.vue",
     "chunkName": "pages/about",
-    "_name": "_0d281b30"
+    "_name": "_f066e11e"
   },
   {
     "name": "gallery",
     "path": "/gallery",
-    "component": "/Users/roneillabumanlag/GitHub/katieburton.github.io/pages/gallery.vue",
+    "component": "C:\\\\Users\\\\ronei\\\\Documents\\\\GitHub\\\\katieburton.github.io\\\\pages\\\\gallery.vue",
     "chunkName": "pages/gallery",
-    "_name": "_63ab9226"
+    "_name": "_46d7b5b6"
   },
   {
     "name": "hackville",
     "path": "/hackville",
-    "component": "/Users/roneillabumanlag/GitHub/katieburton.github.io/pages/hackville.vue",
+    "component": "C:\\\\Users\\\\ronei\\\\Documents\\\\GitHub\\\\katieburton.github.io\\\\pages\\\\hackville.vue",
     "chunkName": "pages/hackville",
-    "_name": "_d55797a8"
+    "_name": "_cec5b696"
+  },
+  {
+    "name": "illustration",
+    "path": "/illustration",
+    "component": "C:\\\\Users\\\\ronei\\\\Documents\\\\GitHub\\\\katieburton.github.io\\\\pages\\\\illustration.vue",
+    "chunkName": "pages/illustration",
+    "_name": "_898eeac8"
   },
   {
     "name": "kdb",
     "path": "/kdb",
-    "component": "/Users/roneillabumanlag/GitHub/katieburton.github.io/pages/kdb.vue",
+    "component": "C:\\\\Users\\\\ronei\\\\Documents\\\\GitHub\\\\katieburton.github.io\\\\pages\\\\kdb.vue",
     "chunkName": "pages/kdb",
-    "_name": "_dc58d878"
+    "_name": "_8ecc41e6"
   },
   {
     "name": "nob",
     "path": "/nob",
-    "component": "/Users/roneillabumanlag/GitHub/katieburton.github.io/pages/nob.vue",
+    "component": "C:\\\\Users\\\\ronei\\\\Documents\\\\GitHub\\\\katieburton.github.io\\\\pages\\\\nob.vue",
     "chunkName": "pages/nob",
-    "_name": "_434b945c"
+    "_name": "_6a11dfa5"
   },
   {
     "name": "spark",
     "path": "/spark",
-    "component": "/Users/roneillabumanlag/GitHub/katieburton.github.io/pages/spark.vue",
+    "component": "C:\\\\Users\\\\ronei\\\\Documents\\\\GitHub\\\\katieburton.github.io\\\\pages\\\\spark.vue",
     "chunkName": "pages/spark",
-    "_name": "_2a5799b8"
+    "_name": "_8e8f927e"
   },
   {
     "name": "sweetDelights",
     "path": "/sweetDelights",
-    "component": "/Users/roneillabumanlag/GitHub/katieburton.github.io/pages/sweetDelights.vue",
+    "component": "C:\\\\Users\\\\ronei\\\\Documents\\\\GitHub\\\\katieburton.github.io\\\\pages\\\\sweetDelights.vue",
     "chunkName": "pages/sweetDelights",
-    "_name": "_6db0bc49"
+    "_name": "_6ae77f5c"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/roneillabumanlag/GitHub/katieburton.github.io/pages/index.vue",
+    "component": "C:\\\\Users\\\\ronei\\\\Documents\\\\GitHub\\\\katieburton.github.io\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_1923cd2d"
+    "_name": "_b0f72b94"
   }
 ]

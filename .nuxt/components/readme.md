@@ -11,4 +11,5 @@ You can directly use them in pages and other components without the need to impo
 - `<Footer>` | `<footer>` (components/Footer.vue)
 - `<Gallery>` | `<gallery>` (components/Gallery.vue)
 - `<ImageLightbox>` | `<image-lightbox>` (components/ImageLightbox.vue)
+- `<NameHeader>` | `<name-header>` (components/NameHeader.vue)
 - `<Nav>` | `<nav>` (components/Nav.vue)

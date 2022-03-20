@@ -1,16 +1,13 @@
 <template>
   <div class="p-4 w-full">
     <div class="hero flex flex-col justify-center items-center w-full">
-      <div class="flex justify-center items-center">
-        <h1 class="uppercase">Katie Burton</h1>
-      </div>
-
+      <NameHeader />
       <div
         class="flex justify-between items-start md:items-center w-full flex-col md:flex-row gap-6"
       >
         <div class="flex-1">
-          Interaction Designer based in Toronto.<br />Looking for full-time or freelance
-          opportunities.
+          Interaction Designer based in Toronto.<br />Looking for full-time or
+          freelance opportunities.
         </div>
         <!-- <div class="flex-initial text-center">VIEW WORK BELOW</div> -->
         <div class="flex-1">
@@ -33,25 +30,15 @@
 
 <script>
 import CaseStudyMenu from "../components/CaseStudyMenu.vue";
+import NameHeader from "../components/NameHeader.vue";
 export default {
-  components: { CaseStudyMenu },
+  components: { CaseStudyMenu, NameHeader },
   name: "IndexPage",
 };
 </script>
 
 <style scoped>
-h1 {
-  font-size: 10rem;
-}
-@screen md {
-  h1 {
-    font-size: 20rem;
-    line-height: 15rem;
-    text-align: center;
-  }
-}
-
 .hero {
-  height: 80vh;
+  height: 100vh;
 }
 </style>

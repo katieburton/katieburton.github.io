@@ -14,6 +14,9 @@
   "ImageLightbox": {
     "description": "Auto imported from components/ImageLightbox.vue"
   },
+  "NameHeader": {
+    "description": "Auto imported from components/NameHeader.vue"
+  },
   "Nav": {
     "description": "Auto imported from components/Nav.vue"
   }

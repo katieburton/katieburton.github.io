@@ -1,16 +1,28 @@
 <template>
   <div class="p-4 w-full">
-    <ImageLightbox class="my-6" img="hackademics.gif" description="Hackademics 2019" />
-    <ImageLightbox class="my-6" img="goliath.png" description="Goliath Branding" />
-    <ImageLightbox class="my-6" img="kineticType.gif" description="Kinetic Typography" />
     <ImageLightbox
       class="my-6"
-      img="leoMarin.png"
+      img="Hackademics.gif"
+      description="Hackademics 2019"
+    />
+    <ImageLightbox
+      class="my-6"
+      img="Goliath.png"
+      description="Goliath Branding"
+    />
+    <ImageLightbox
+      class="my-6"
+      img="kineticType.gif"
+      description="Kinetic Typography"
+    />
+    <ImageLightbox
+      class="my-6"
+      img="LeoMarin.png"
       description="Leo Marin Business Card"
     />
     <ImageLightbox
       class="my-6"
-      img="workCulture.png"
+      img="WorkCulture.png"
       description="Work Culture in Japan Infographic"
     />
     <ImageLightbox

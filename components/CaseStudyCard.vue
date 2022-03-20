@@ -1,25 +1,34 @@
 <template>
   <div class="text-center relative">
     <NuxtLink :to="link">
-      <div class="card-inner-container kb-border-top kb-border-bottom" :id="idName">
-        <div class="text-8xl main-font uppercase">
-          {{ description }}
-        </div>
-        <div class="case-card-tags text-center flex w-full justify-center">
-          <div class="uppercase px-2" v-for="(tag, index) in tags" :key="index">
-            {{ tag }}
+      <div class="card-outer-container">
+        <div
+          class="card-inner-container kb-border-top kb-border-bottom"
+          :id="idName"
+        >
+          <div class="text-8xl main-font uppercase">
+            {{ description }}
           </div>
+          <div class="case-card-tags text-center flex w-full justify-center">
+            <div
+              class="uppercase px-2"
+              v-for="(tag, index) in tags"
+              :key="index"
+            >
+              {{ tag }}
+            </div>
+          </div>
+          <img
+            :src="require('~/assets/images/' + name + '-t-1.png')"
+            alt=""
+            class="thumbnail-left"
+          />
+          <img
+            :src="require('~/assets/images/' + name + '-t-2.png')"
+            alt=""
+            class="thumbnail-right"
+          />
         </div>
-        <img
-          :src="require('~/assets/images/' + name + '-t-1.png')"
-          alt=""
-          class="thumbnail-left"
-        />
-        <img
-          :src="require('~/assets/images/' + name + '-t-2.png')"
-          alt=""
-          class="thumbnail-right"
-        />
       </div>
     </NuxtLink>
   </div>
@@ -32,6 +41,10 @@ export default {
 </script>
 
 <style scoped>
+.card-outer-container {
+  width: 100%;
+}
+
 .card-inner-container {
   max-width: 400px;
 
@@ -40,10 +53,6 @@ export default {
 
 #case-4 {
   border-bottom: 1px solid black;
-}
-
-.case-card-tags {
-  display: none;
 }
 
 .thumbnail-left,
@@ -57,13 +66,9 @@ export default {
   transition: all 0.2s ease-in-out;
 }
 
-.card-inner-container:hover .thumbnail-left,
-.card-inner-container:hover .thumbnail-right {
+.card-outer-container:hover .thumbnail-left,
+.card-outer-container:hover .thumbnail-right {
   opacity: 1;
-}
-
-.card-inner-container:hover .case-card-tags {
-  display: flex;
 }
 
 .thumbnail-left {
