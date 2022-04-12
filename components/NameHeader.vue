@@ -1,5 +1,5 @@
 <template>
-  <div class="relative mb-40">
+  <div class="relative mb-40 kb-max-w ctr">
     <div class="flex justify-center items-center relative z-50">
       <h1 class="uppercase">Katie Burton</h1>
     </div>
@@ -54,30 +54,96 @@ export default {};
 
 <style scoped>
 h1 {
-  font-size: 10rem;
+  font-size: 7rem;
+  /* line-height: 7rem; */
 }
 
 .sticker {
-  max-width: 250px;
-  max-height: 150px;
+  max-width: 200px;
+  max-height: 100px;
   object-fit: contain;
   @apply absolute;
+  transform: scale(0.8);
   transition: all 0.1s ease-in-out;
 }
 
 .sticker:hover {
-  transform: rotate(8deg) scale(1.1) !important;
+  transform: rotate(8deg) scale(1) !important;
+}
+
+#sticker-uxr {
+  top: -1rem;
+  left: -2rem;
+  transform: rotate(-15deg) scale(0.8);
+}
+
+#sticker-visual {
+  top: -4rem;
+  right: -1rem;
+  transform: rotate(4deg) scale(0.8);
+  z-index: 100;
+}
+#sticker-3d {
+  bottom: -1rem;
+  left: -4rem;
+  transform: rotate(-15deg) scale(0.8);
+  z-index: 10;
+  max-width: 150px;
+}
+#sticker-usability {
+  bottom: -5rem;
+  left: -3rem;
+  transform: rotate(-15deg) scale(0.8);
+  z-index: 10;
+  max-width: 120px;
+}
+#sticker-ui {
+  bottom: -1.5rem;
+  left: 0.5rem;
+  transform: rotate(-10deg) scale(0.8);
+  z-index: 100;
+  max-width: 160px;
+}
+#sticker-motion {
+  bottom: 0rem;
+  right: -3rem;
+  transform: rotate(4deg) scale(0.8);
+  z-index: 10;
+  max-width: 160px;
+}
+#sticker-branding {
+  bottom: -1rem;
+  right: 0rem;
+  z-index: 10;
+  max-width: 180px;
+  transform: rotate(4deg) scale(0.8);
 }
 
 @screen md {
+  .ctr {
+    transform: scale(1.5);
+  }
+}
+
+@screen lg {
+  .ctr {
+    transform: scale(1);
+  }
+
+  .sticker {
+    max-width: 250px;
+    max-height: 150px;
+    transform: scale(1);
+  }
+  .sticker:hover {
+    transform: rotate(8deg) scale(1.1) !important;
+  }
   h1 {
     font-size: 20rem;
     line-height: 15rem;
     text-align: center;
   }
-}
 
-@screen lg {
   #sticker-uxr {
     top: -6rem;
     left: -4rem;

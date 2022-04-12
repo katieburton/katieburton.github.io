@@ -1,14 +1,97 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-	overflow-x: hidden;
-	font-size: 18px;
+  overflow-x: hidden;
+  font-size: 18px;
+  background-color: #f9f9f9;
+}
+
+.main-font,
+h1 {
+  font-family: roc-grotesk-compressed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.body-font,
+p,
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+.kb-border-top {
+  border-top: 1px solid black;
+}
+.kb-border-bottom {
+  border-bottom: 1px solid black;
+}
+
+.kb-max-w {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kb-mw-800 {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kb-img-max-h {
+  max-height: 800px;
+}
+
+.tag {
+  padding: 0.25rem 0.5rem;
+  border-radius: 30px;
+  border: 1px solid black;
+  font-size: 0.75rem;
+}
+
+.overline {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 125%;
+}
+
+.subheading {
+  font-size: 2rem;
+  line-height: 125%;
+}
+
+.subheading-2 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 125%;
+}
+
+@screen md {
+  .heading {
+    font-size: 4rem;
+  }
+}
+.black {
+  color: #000;
+}
+
+.grey {
+  color: #aaa;
+}
+
+.purple {
+  color: #9c79ff;
 }

@@ -1,7 +1,55 @@
 <template>
-  <div class="text-center relative">
+  <div class="w-full my-16">
     <NuxtLink :to="link">
-      <div class="card-outer-container">
+      <div class="flex flex-col md:flex-row md:items-center gap-4 md:gap-8">
+        <div class="block md:hidden">
+          <div class="text-8xl main-font uppercase leading-none">
+            {{ title }}
+          </div>
+          <div class="flex gap-2 w-full justify-center my-2">
+            <div
+              class="uppercase tag"
+              v-for="(tag, index) in tags"
+              :key="index"
+            >
+              {{ tag }}
+            </div>
+          </div>
+        </div>
+        <div class="md:w-5/12">
+          <img
+            class="w-full h-3/6 md:h-auto object-cover"
+            :src="require('~/assets/images/' + name + '-t-1.png')"
+            alt=""
+          />
+        </div>
+        <div class="flex-1 text-left">
+          <div class="md:w-9/12 mx-auto">
+            <div class="hidden md:block">
+              <div class="text-8xl main-font uppercase">
+                {{ title }}
+              </div>
+              <div>
+                {{ description }}
+              </div>
+              <div class="flex gap-2 w-full justify-start my-4">
+                <div
+                  class="uppercase tag"
+                  v-for="(tag, index) in tags"
+                  :key="index"
+                >
+                  {{ tag }}
+                </div>
+              </div>
+            </div>
+
+            <div class="purple font-bold my-2 md:my-16 text-right md:text-left">
+              View case study &rarr;
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="card-outer-container">
         <div
           class="card-inner-container kb-border-top kb-border-bottom"
           :id="idName"
@@ -27,20 +75,34 @@
             :src="require('~/assets/images/' + name + '-t-2.png')"
             alt=""
             class="thumbnail-right"
-          />
+          /> 
         </div>
-      </div>
+      </div> -->
     </NuxtLink>
   </div>
 </template>
 
 <script>
 export default {
-  props: ["idName", "name", "description", "link", "thumbnail", "tags"],
+  props: [
+    "idName",
+    "name",
+    "title",
+    "description",
+    "link",
+    "thumbnail",
+    "tags",
+  ],
 };
 </script>
 
 <style scoped>
+@screen md {
+  img {
+    height: 80vh;
+  }
+}
+
 .card-outer-container {
   width: 100%;
 }

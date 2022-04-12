@@ -7,6 +7,7 @@
         :key="index"
         class="case-card"
         :thumbnail="gal.thumbnail"
+        :title="gal.title"
         :description="gal.description"
         :link="'/' + gal.name"
         :tags="gal.tags"
@@ -28,11 +29,30 @@ export default {
       gallery: gallery,
     };
   },
+  mounted() {
+    const cards = document.querySelectorAll(".case-card");
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          entry.target.classList.toggle("show", entry.isIntersecting);
+          if (entry.isIntersecting) observer.unobserve(entry.target);
+        });
+      },
+      {
+        threshold: 0.25,
+      }
+    );
+
+    cards.forEach((card) => {
+      observer.observe(card);
+    });
+  },
 };
 </script>
 
 <style scoped>
-.card-wrapper {
+/* .card-wrapper {
   transition: opacity 0.2s ease-in-out;
 }
 
@@ -41,6 +61,17 @@ export default {
 }
 
 .card-wrapper:hover > *:hover {
+  opacity: 1;
+} */
+
+.case-card {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 250ms ease-in;
+}
+
+.case-card.show {
+  transform: translateY(0px);
   opacity: 1;
 }
 </style>

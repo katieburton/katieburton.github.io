@@ -9,9 +9,7 @@ const _46d7b5b6 = () => interopDefault(import('..\\pages\\gallery.vue' /* webpac
 const _cec5b696 = () => interopDefault(import('..\\pages\\hackville.vue' /* webpackChunkName: "pages/hackville" */))
 const _898eeac8 = () => interopDefault(import('..\\pages\\illustration.vue' /* webpackChunkName: "pages/illustration" */))
 const _8ecc41e6 = () => interopDefault(import('..\\pages\\kdb.vue' /* webpackChunkName: "pages/kdb" */))
-const _6a11dfa5 = () => interopDefault(import('..\\pages\\nob.vue' /* webpackChunkName: "pages/nob" */))
 const _8e8f927e = () => interopDefault(import('..\\pages\\spark.vue' /* webpackChunkName: "pages/spark" */))
-const _6ae77f5c = () => interopDefault(import('..\\pages\\sweetDelights.vue' /* webpackChunkName: "pages/sweetDelights" */))
 const _b0f72b94 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -46,17 +44,9 @@ export const routerOptions = {
     component: _8ecc41e6,
     name: "kdb"
   }, {
-    path: "/nob",
-    component: _6a11dfa5,
-    name: "nob"
-  }, {
     path: "/spark",
     component: _8e8f927e,
     name: "spark"
-  }, {
-    path: "/sweetDelights",
-    component: _6ae77f5c,
-    name: "sweetDelights"
   }, {
     path: "/",
     component: _b0f72b94,

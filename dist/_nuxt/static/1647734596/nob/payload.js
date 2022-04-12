@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/nob", {data:[{}],fetch:{},mutations:void 0});

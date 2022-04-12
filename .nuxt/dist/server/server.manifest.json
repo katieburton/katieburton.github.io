@@ -12,9 +12,7 @@
     "pages/illustration.js": "pages/illustration.js",
     "pages/index.js": "pages/index.js",
     "pages/kdb.js": "pages/kdb.js",
-    "pages/nob.js": "pages/nob.js",
     "pages/spark.js": "pages/spark.js",
-    "pages/sweetDelights.js": "pages/sweetDelights.js",
     "server.js": "server.js"
   },
   "maps": {
@@ -29,9 +27,7 @@
     "pages/illustration.js": "pages/illustration.js.map",
     "pages/index.js": "pages/index.js.map",
     "pages/kdb.js": "pages/kdb.js.map",
-    "pages/nob.js": "pages/nob.js.map",
     "pages/spark.js": "pages/spark.js.map",
-    "pages/sweetDelights.js": "pages/sweetDelights.js.map",
     "server.js": "server.js.map"
   }
 }
