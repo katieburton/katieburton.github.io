@@ -12,7 +12,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "Katie Burton – Interaction Designer",
+    title: "Katie Burton – Visual and UX Designer",
     htmlAttrs: {
       lang: "en",
     },

@@ -2782,7 +2782,7 @@ async function createApp(ssrContext, config = {}) {
 
   const app = {
     head: {
-      "title": "Katie Burton – Interaction Designer",
+      "title": "Katie Burton – Visual and UX Designer",
       "htmlAttrs": {
         "lang": "en"
       },
