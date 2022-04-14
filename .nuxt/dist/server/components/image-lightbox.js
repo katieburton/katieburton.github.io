@@ -3,52 +3,64 @@ exports.modules = Array(34).concat([
 /* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "img/hackville-t-1.f3d192c.png";
+
+/***/ }),
+/* 35 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/kdb-t-1.aebf683.png";
+
+/***/ }),
+/* 36 */
+/***/ (function(module, exports, __webpack_require__) {
+
 var map = {
-	"./Eyes.svg": 78,
-	"./Goliath.png": 79,
-	"./Hackademics.gif": 80,
-	"./Hackville-2.png": 81,
-	"./Hackville-3.png": 82,
+	"./Eyes.svg": 77,
+	"./Goliath.png": 78,
+	"./Hackademics.gif": 79,
+	"./Hackville-2.png": 80,
+	"./Hackville-3.png": 81,
 	"./HackvilleCompetition.png": 47,
-	"./HackvilleEventAssets-1.png": 48,
-	"./HackvilleEventAssets-2.png": 49,
-	"./HackvilleHeroUpdatedHorizontal.png": 50,
-	"./HackvilleIllustrationExamples.png": 51,
-	"./HackvilleIllustrationGrid.png": 52,
-	"./HackvilleIllustrationMoodboard.png": 53,
-	"./HackvilleIllustrationShapes.png": 54,
-	"./HackvilleIllustrationStroke.png": 55,
-	"./HackvilleLettermark.png": 56,
-	"./HackvilleProblem.png": 57,
-	"./HackvilleScheduleMockup.png": 58,
-	"./HackvilleTypographyKarla.png": 59,
-	"./HackvilleTypographySpace.png": 60,
-	"./HackvilleWordmark.png": 61,
-	"./KatieBurtonDP.jpg": 45,
+	"./HackvilleEventAssets-1.png": 82,
+	"./HackvilleEventAssets-2.png": 48,
+	"./HackvilleHeroUpdatedHorizontal.png": 49,
+	"./HackvilleIllustrationExamples.png": 50,
+	"./HackvilleIllustrationGrid.png": 51,
+	"./HackvilleIllustrationMoodboard.png": 52,
+	"./HackvilleIllustrationShapes.png": 53,
+	"./HackvilleIllustrationStroke.png": 54,
+	"./HackvilleLettermark.png": 55,
+	"./HackvilleProblem.png": 56,
+	"./HackvilleScheduleMockup.png": 57,
+	"./HackvilleTypographyKarla.png": 58,
+	"./HackvilleTypographySpace.png": 59,
+	"./HackvilleWordmark.png": 60,
+	"./KatieBurtonDP.png": 45,
 	"./Katja De Bourbon Design System 1.png": 46,
-	"./Katja De Bourbon Design System 2.png": 62,
-	"./Katja De Bourbon Design System 3.png": 63,
-	"./Katja De Bourbon Design System 4.png": 64,
-	"./Katja De Bourbon Design System 5.png": 65,
-	"./Katja De Bourbon Design System 6.png": 66,
+	"./Katja De Bourbon Design System 2.png": 61,
+	"./Katja De Bourbon Design System 3.png": 62,
+	"./Katja De Bourbon Design System 4.png": 63,
+	"./Katja De Bourbon Design System 5.png": 64,
+	"./Katja De Bourbon Design System 6.png": 65,
 	"./KatjaArrows.png": 83,
 	"./KatjaCircles.png": 84,
-	"./KatjaDoodleSystem.png": 67,
+	"./KatjaDoodleSystem.png": 66,
 	"./KatjaDynamicHighlights.png": 85,
-	"./KatjaFlowers.png": 68,
+	"./KatjaFlowers.png": 67,
 	"./KatjaHandwrittenText.png": 86,
-	"./KatjaHeroMockup.png": 69,
-	"./KatjaMoodboard.png": 70,
+	"./KatjaHeroMockup.png": 68,
+	"./KatjaMoodboard.png": 69,
 	"./KatjaNumbers.png": 87,
 	"./KatjaPortfolioPrototype.mp4": 88,
-	"./KatjaProblem.png": 71,
-	"./KatjaSignature.png": 72,
-	"./KatjaSpreadMockup1.png": 73,
-	"./KatjaSpreadMockup2.png": 74,
+	"./KatjaProblem.png": 70,
+	"./KatjaSignature.png": 71,
+	"./KatjaSpreadMockup1.png": 72,
+	"./KatjaSpreadMockup2.png": 73,
 	"./KatjaStaticHighlights.png": 89,
 	"./KatjaUnderlines.png": 90,
-	"./KatjaUserTest.png": 75,
-	"./KatjaWireframes.png": 76,
+	"./KatjaUserTest.png": 74,
+	"./KatjaWireframes.png": 75,
 	"./Leo_Marin_Business_Cards.png": 91,
 	"./NOB_Branding.png": 92,
 	"./TD_GenerativeLiquidPainting.gif": 93,
@@ -57,7 +69,7 @@ var map = {
 	"./grinch.gif": 96,
 	"./hackville-4.png": 97,
 	"./hackville-5.png": 98,
-	"./hackville-t-1.png": 35,
+	"./hackville-t-1.png": 34,
 	"./hackville-t-2.png": 99,
 	"./illustration-1.png": 100,
 	"./illustration-2.png": 101,
@@ -66,7 +78,7 @@ var map = {
 	"./illustration-5.png": 104,
 	"./illustration-6.png": 105,
 	"./illustration-7.png": 106,
-	"./kdb-t-1.png": 36,
+	"./kdb-t-1.png": 35,
 	"./kineticType.gif": 107,
 	"./sticker-3d.png": 38,
 	"./sticker-branding.png": 39,
@@ -99,19 +111,7 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 34;
-
-/***/ }),
-/* 35 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/hackville-t-1.f3d192c.png";
-
-/***/ }),
-/* 36 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/kdb-t-1.aebf683.png";
+webpackContext.id = 36;
 
 /***/ }),
 /* 37 */
@@ -176,7 +176,7 @@ module.exports = __webpack_require__.p + "img/sticker-visual.f85c4ba.png";
 /* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/KatieBurtonDP.925cb01.jpg";
+module.exports = __webpack_require__.p + "img/KatieBurtonDP.7302980.png";
 
 /***/ }),
 /* 46 */
@@ -194,178 +194,172 @@ module.exports = __webpack_require__.p + "img/HackvilleCompetition.69a4799.png";
 /* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/HackvilleEventAssets-1.887a40a.png";
+module.exports = __webpack_require__.p + "img/HackvilleEventAssets-2.9690f30.png";
 
 /***/ }),
 /* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/HackvilleEventAssets-2.9690f30.png";
+module.exports = __webpack_require__.p + "img/HackvilleHeroUpdatedHorizontal.eb7bbe2.png";
 
 /***/ }),
 /* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/HackvilleHeroUpdatedHorizontal.eb7bbe2.png";
+module.exports = __webpack_require__.p + "img/HackvilleIllustrationExamples.6a81ad7.png";
 
 /***/ }),
 /* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/HackvilleIllustrationExamples.6a81ad7.png";
+module.exports = __webpack_require__.p + "img/HackvilleIllustrationGrid.b2308d8.png";
 
 /***/ }),
 /* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/HackvilleIllustrationGrid.b2308d8.png";
+module.exports = __webpack_require__.p + "img/HackvilleIllustrationMoodboard.b5487e9.png";
 
 /***/ }),
 /* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/HackvilleIllustrationMoodboard.b5487e9.png";
+module.exports = __webpack_require__.p + "img/HackvilleIllustrationShapes.d082a11.png";
 
 /***/ }),
 /* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/HackvilleIllustrationShapes.d082a11.png";
+module.exports = __webpack_require__.p + "img/HackvilleIllustrationStroke.f2976e2.png";
 
 /***/ }),
 /* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/HackvilleIllustrationStroke.f2976e2.png";
+module.exports = __webpack_require__.p + "img/HackvilleLettermark.3af6f71.png";
 
 /***/ }),
 /* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/HackvilleLettermark.3af6f71.png";
+module.exports = __webpack_require__.p + "img/HackvilleProblem.63aebc1.png";
 
 /***/ }),
 /* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/HackvilleProblem.63aebc1.png";
+module.exports = __webpack_require__.p + "img/HackvilleScheduleMockup.ee7a185.png";
 
 /***/ }),
 /* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/HackvilleScheduleMockup.ee7a185.png";
+module.exports = __webpack_require__.p + "img/HackvilleTypographyKarla.3e04d80.png";
 
 /***/ }),
 /* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/HackvilleTypographyKarla.3e04d80.png";
+module.exports = __webpack_require__.p + "img/HackvilleTypographySpace.97e922e.png";
 
 /***/ }),
 /* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/HackvilleTypographySpace.97e922e.png";
+module.exports = __webpack_require__.p + "img/HackvilleWordmark.0f1ba58.png";
 
 /***/ }),
 /* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/HackvilleWordmark.0f1ba58.png";
+module.exports = __webpack_require__.p + "img/Katja De Bourbon Design System 2.cab249f.png";
 
 /***/ }),
 /* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Katja De Bourbon Design System 2.cab249f.png";
+module.exports = __webpack_require__.p + "img/Katja De Bourbon Design System 3.a8ae214.png";
 
 /***/ }),
 /* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Katja De Bourbon Design System 3.a8ae214.png";
+module.exports = __webpack_require__.p + "img/Katja De Bourbon Design System 4.0497525.png";
 
 /***/ }),
 /* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Katja De Bourbon Design System 4.0497525.png";
+module.exports = __webpack_require__.p + "img/Katja De Bourbon Design System 5.9e271c1.png";
 
 /***/ }),
 /* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Katja De Bourbon Design System 5.9e271c1.png";
+module.exports = __webpack_require__.p + "img/Katja De Bourbon Design System 6.ebd5119.png";
 
 /***/ }),
 /* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Katja De Bourbon Design System 6.ebd5119.png";
+module.exports = __webpack_require__.p + "img/KatjaDoodleSystem.7df8ee3.png";
 
 /***/ }),
 /* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/KatjaDoodleSystem.7df8ee3.png";
+module.exports = __webpack_require__.p + "img/KatjaFlowers.0aa3e66.png";
 
 /***/ }),
 /* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/KatjaFlowers.0aa3e66.png";
+module.exports = __webpack_require__.p + "img/KatjaHeroMockup.841f5a8.png";
 
 /***/ }),
 /* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/KatjaHeroMockup.841f5a8.png";
+module.exports = __webpack_require__.p + "img/KatjaMoodboard.4743923.png";
 
 /***/ }),
 /* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/KatjaMoodboard.4743923.png";
+module.exports = __webpack_require__.p + "img/KatjaProblem.77da0d5.png";
 
 /***/ }),
 /* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/KatjaProblem.77da0d5.png";
+module.exports = __webpack_require__.p + "img/KatjaSignature.738b44a.png";
 
 /***/ }),
 /* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/KatjaSignature.738b44a.png";
+module.exports = __webpack_require__.p + "img/KatjaSpreadMockup1.a04b0af.png";
 
 /***/ }),
 /* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/KatjaSpreadMockup1.a04b0af.png";
+module.exports = __webpack_require__.p + "img/KatjaSpreadMockup2.1c10eb4.png";
 
 /***/ }),
 /* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/KatjaSpreadMockup2.1c10eb4.png";
+module.exports = __webpack_require__.p + "img/KatjaUserTest.0fadbb7.png";
 
 /***/ }),
 /* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/KatjaUserTest.0fadbb7.png";
-
-/***/ }),
-/* 76 */
-/***/ (function(module, exports, __webpack_require__) {
-
 module.exports = __webpack_require__.p + "img/KatjaWireframes.b32b90d.png";
 
 /***/ }),
-/* 77 */
+/* 76 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -373,7 +367,7 @@ module.exports = __webpack_require__.p + "img/KatjaWireframes.b32b90d.png";
 __webpack_require__.r(__webpack_exports__);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/ImageLightbox.vue?vue&type=template&id=6d267852&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"py-6 text-center"},[_vm._ssrNode("<img"+(_vm._ssrAttr("src",__webpack_require__(34)("./" + _vm.img)))+" alt data-v-6d267852> "+((_vm.description)?("<p class=\"my-2 uppercase text-center\" data-v-6d267852>"+_vm._ssrEscape("\n    "+_vm._s(_vm.description)+"\n  ")+"</p>"):"<!---->")+" "+((_vm.tag)?("<div class=\"tag inline-block\" data-v-6d267852>"+_vm._ssrEscape(_vm._s(_vm.tag))+"</div>"):"<!---->")+" <div"+(_vm._ssrClass("lightbox text-right",{ active: _vm.active }))+" data-v-6d267852><p class=\"underline uppercase\" data-v-6d267852>Close</p> <img"+(_vm._ssrAttr("src",__webpack_require__(34)("./" + _vm.img)))+" alt data-v-6d267852> <p class=\"text-center uppercase w-full\" data-v-6d267852>"+_vm._ssrEscape(_vm._s(_vm.description))+"</p></div>")])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"py-6 text-center"},[_vm._ssrNode("<img"+(_vm._ssrAttr("src",__webpack_require__(36)("./" + _vm.img)))+" alt data-v-6d267852> "+((_vm.description)?("<p class=\"my-2 uppercase text-center\" data-v-6d267852>"+_vm._ssrEscape("\n    "+_vm._s(_vm.description)+"\n  ")+"</p>"):"<!---->")+" "+((_vm.tag)?("<div class=\"tag inline-block\" data-v-6d267852>"+_vm._ssrEscape(_vm._s(_vm.tag))+"</div>"):"<!---->")+" <div"+(_vm._ssrClass("lightbox text-right",{ active: _vm.active }))+" data-v-6d267852><p class=\"underline uppercase\" data-v-6d267852>Close</p> <img"+(_vm._ssrAttr("src",__webpack_require__(36)("./" + _vm.img)))+" alt data-v-6d267852> <p class=\"text-center uppercase w-full\" data-v-6d267852>"+_vm._ssrEscape(_vm._s(_vm.description))+"</p></div>")])}
 var staticRenderFns = []
 
 
@@ -467,34 +461,40 @@ var component = Object(componentNormalizer["a" /* default */])(
 /* harmony default export */ var ImageLightbox = __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
-/* 78 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/Eyes.5223b4c.svg";
+module.exports = __webpack_require__.p + "img/Eyes.7726458.svg";
 
 /***/ }),
-/* 79 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/Goliath.c509ac4.png";
 
 /***/ }),
-/* 80 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/Hackademics.0c87595.gif";
 
 /***/ }),
-/* 81 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/Hackville-2.42872ec.png";
 
 /***/ }),
-/* 82 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/Hackville-3.e5e0472.png";
+
+/***/ }),
+/* 82 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/HackvilleEventAssets-1.887a40a.png";
 
 /***/ }),
 /* 83 */
@@ -554,7 +554,7 @@ module.exports = __webpack_require__.p + "img/Leo_Marin_Business_Cards.4eae4c9.p
 /* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/NOB_Branding.86e21f8.png";
+module.exports = __webpack_require__.p + "img/NOB_Branding.45d84ee.png";
 
 /***/ }),
 /* 93 */

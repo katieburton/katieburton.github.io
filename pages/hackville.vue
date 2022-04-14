@@ -1,7 +1,12 @@
 <template>
   <div class="w-full">
     <img
-      class="kb-img-max-h object-cover w-full"
+      class="block md:hidden kb-img-max-h object-cover w-full"
+      src="~assets/images/hackville-t-1.png"
+      alt=""
+    />
+    <img
+      class="hidden md:block kb-img-max-h object-cover w-full"
       src="~assets/images/HackvilleHeroUpdatedHorizontal.png"
       alt=""
     />
@@ -152,11 +157,11 @@
       <div
         class="flex flex-col md:flex-row items-center md:justify-between gap-8 my-16"
       >
-        <div class="w-8/12 text-center">
+        <div class="md:w-8/12 text-center">
           <div class="subheading mb-4 text-center">Wordmark</div>
           <img src="~assets/images/HackvilleWordmark.png" alt="" />
         </div>
-        <div class="w-3/12 text-center">
+        <div class="md:w-3/12 text-center">
           <div class="subheading mb-4 text-center">Lettermark</div>
           <img src="~assets/images/HackvilleLettermark.png" alt="" />
         </div>
@@ -240,7 +245,7 @@
     <div class="mt-16 flex flex-col md:flex-row items-stretch">
       <div
         style="background-color: #cddcf1"
-        class="md:w-7/12 px-16 py-40 flex flex-col justify-center items-end"
+        class="md:w-7/12 px-4 py-16 md:px-16 md:py-40 flex flex-col justify-center items-end"
       >
         <div class="max-w-2xl p-4 md:max-h-80">
           <h3 class="subheading mb-4">Illustration Guide</h3>
@@ -262,7 +267,7 @@
           <img
             src="~assets/images/HackvilleIllustrationStroke.png"
             alt=""
-            class="mx-auto h-full w-auto object-fit"
+            class="mx-auto h-full w-auto object-contain"
           />
         </div>
       </div>
@@ -284,7 +289,7 @@
         />
       </div>
     </div>
-    <div class="my-16 text-center py-40 px-8">
+    <div class="my-16 text-center py-16 md:py-40 px-8">
       <div class="kb-max-w">
         <h3 class="subheading mb-8">Illustration Examples</h3>
         <img
@@ -294,19 +299,25 @@
         />
       </div>
     </div>
-    <div class="my-16 text-center py-40 px-8">
+    <div class="my-16 text-center py-16 md:py-40 px-8">
       <div class="kb-max-w">
         <h3 class="subheading mb-8">Event Assets</h3>
         <div class="flex flex-col md:flex-row kb-max-w gap-8 md:gap-4">
-          <div>
-            <img
-              src="~assets/images/HackvilleEventAssets-1.png"
-              class="kb-img-max-h"
-              alt=""
-            />
+          <div class="flex-1">
+            <div class="video-container">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/psx6NGU3RPo"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
             <p class="mt-2">Registration Site</p>
           </div>
-          <div>
+          <div class="flex-1">
             <img
               src="~assets/images/HackvilleEventAssets-2.png"
               class="kb-img-max-h"

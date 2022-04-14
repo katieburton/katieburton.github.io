@@ -1,7 +1,12 @@
 <template>
   <div class="w-full">
     <img
-      class="kb-img-max-h object-cover w-full"
+      class="block md:hidden kb-img-max-h object-cover w-full"
+      src="~assets/images/kdb-t-1.png"
+      alt=""
+    />
+    <img
+      class="hidden md:block kb-img-max-h object-cover w-full"
       src="~assets/images/KatjaHeroMockup.png"
       alt=""
     />

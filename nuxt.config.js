@@ -27,7 +27,7 @@ export default {
       { rel: "stylesheet", href: "https://use.typekit.net/afm5fhn.css" },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap",
       },
     ],
   },

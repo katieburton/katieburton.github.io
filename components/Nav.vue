@@ -49,10 +49,14 @@
       </ul>
       <div class="hidden md:flex gap-4 items-center">
         <a href="https://www.linkedin.com/in/k-burton/" target="_blank">
-          <img src="~assets/icons/LinkedIn.svg" alt=""
+          <img class="social-icon" src="~assets/icons/LinkedIn.svg" alt=""
         /></a>
         <a href="mailto:katxburton@gmail.com" target="_blank">
-          <img src="~assets/icons/Email.svg" alt=""
+          <img
+            style="width: 28px; height: 28px"
+            class="social-icon"
+            src="~assets/icons/Email.svg"
+            alt=""
         /></a>
       </div>
       <div class="flex items-center md:hidden">
@@ -116,6 +120,7 @@ a.menu-item {
   color: #191919;
   opacity: 0.4;
   transition: all 0.2s ease-in-out;
+  font-weight: 500;
 }
 
 a:hover {
@@ -222,5 +227,11 @@ nav {
 
 .z-1000 {
   z-index: 1000;
+}
+
+.social-icon {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
 }
 </style>

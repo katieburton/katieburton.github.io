@@ -214,8 +214,8 @@ const gallery = [{
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./hackville-t-1.png": 35,
-	"./kdb-t-1.png": 36
+	"./hackville-t-1.png": 34,
+	"./kdb-t-1.png": 35
 };
 
 
@@ -707,14 +707,14 @@ installComponents(component, {NameHeader: __webpack_require__(129).default,CaseS
 
 /***/ }),
 
-/***/ 35:
+/***/ 34:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/hackville-t-1.f3d192c.png";
 
 /***/ }),
 
-/***/ 36:
+/***/ 35:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/kdb-t-1.aebf683.png";

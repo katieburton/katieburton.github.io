@@ -44,6 +44,7 @@ export default {
   color: #191919;
   opacity: 0.4;
   transition: all 0.2s ease-in-out;
+  font-weight: 500;
 }
 
 .footer-link:hover {

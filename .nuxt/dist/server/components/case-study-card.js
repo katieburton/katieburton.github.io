@@ -158,8 +158,8 @@ var component = Object(componentNormalizer["a" /* default */])(
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./hackville-t-1.png": 35,
-	"./kdb-t-1.png": 36
+	"./hackville-t-1.png": 34,
+	"./kdb-t-1.png": 35
 };
 
 
@@ -211,14 +211,14 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 35:
+/***/ 34:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/hackville-t-1.f3d192c.png";
 
 /***/ }),
 
-/***/ 36:
+/***/ 35:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/kdb-t-1.aebf683.png";

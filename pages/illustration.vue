@@ -5,7 +5,6 @@
     <ImageLightbox class="my-6" img="illustration-7.png" />
     <ImageLightbox class="my-6" img="illustration-3.png" />
     <ImageLightbox class="my-6" img="illustration-2.png" />
-
     <ImageLightbox class="my-6" img="illustration-4.png" />
     <ImageLightbox class="my-6" img="illustration-5.png" />
   </div>
