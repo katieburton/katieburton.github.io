@@ -1,21 +1,26 @@
 <template>
-  <div class="py-6">
+  <div class="py-6 text-center">
     <img :src="require('~/assets/images/' + img)" alt="" @click="toggle" />
-    <p class="my-2 text-center">
+    <p v-if="description" class="my-2 uppercase text-center">
       {{ description }}
     </p>
+    <div v-if="tag" class="tag inline-block">{{ tag }}</div>
 
-    <div class="lightbox text-right" :class="{ active: active }" @click="toggleOutside">
+    <div
+      class="lightbox text-right"
+      :class="{ active: active }"
+      @click="toggleOutside"
+    >
       <p class="underline uppercase" @click="toggle">Close</p>
       <img :src="require('~/assets/images/' + img)" alt="" />
-      <p class="text-center w-full">{{ description }}</p>
+      <p class="text-center uppercase w-full">{{ description }}</p>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  props: ["img", "description"],
+  props: ["img", "description", "tag"],
   data() {
     return {
       active: false,
@@ -25,9 +30,22 @@ export default {
   methods: {
     toggle() {
       this.active = !this.active;
+
+      if (this.active) {
+        document.body.style.overflow = "hidden";
+      } else {
+        document.body.style.overflow = "auto";
+      }
     },
     toggleOutside(e) {
-      if (e.target == e.currentTarget) this.active = !this.active;
+      // if (e.target == e.currentTarget)
+      this.active = !this.active;
+
+      if (this.active) {
+        document.body.style.overflow = "hidden";
+      } else {
+        document.body.style.overflow = "auto";
+      }
     },
   },
 };
@@ -54,7 +72,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(10px) grayscale(100%) brightness(0.2);
   padding: 1rem;
 }
 

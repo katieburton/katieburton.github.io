@@ -1,7 +1,7 @@
 <template>
-  <div class="kb-mw-800">
+  <div class="kb-mw-800 p-4">
     <img src="~assets/images/KatieBurtonDP.jpg" alt="" />
-    <div class="flex mt-8 gap-8">
+    <div class="flex flex-col md:flex-row mt-8 gap-8">
       <div class="w-5/12">
         <div class="subheading-2">Hello, I'm Katie!</div>
         <p class="grey">(she/her)</p>
@@ -19,7 +19,7 @@
         </p>
       </div>
     </div>
-    <div class="flex mt-32 gap-8">
+    <div class="flex flex-col md:flex-row mt-32 gap-8">
       <div class="w-5/12">
         <div class="subheading-2">My Design Philosophies</div>
       </div>

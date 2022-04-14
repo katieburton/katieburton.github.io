@@ -9,7 +9,6 @@ const _46d7b5b6 = () => interopDefault(import('..\\pages\\gallery.vue' /* webpac
 const _cec5b696 = () => interopDefault(import('..\\pages\\hackville.vue' /* webpackChunkName: "pages/hackville" */))
 const _898eeac8 = () => interopDefault(import('..\\pages\\illustration.vue' /* webpackChunkName: "pages/illustration" */))
 const _8ecc41e6 = () => interopDefault(import('..\\pages\\kdb.vue' /* webpackChunkName: "pages/kdb" */))
-const _8e8f927e = () => interopDefault(import('..\\pages\\spark.vue' /* webpackChunkName: "pages/spark" */))
 const _b0f72b94 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -43,10 +42,6 @@ export const routerOptions = {
     path: "/kdb",
     component: _8ecc41e6,
     name: "kdb"
-  }, {
-    path: "/spark",
-    component: _8e8f927e,
-    name: "spark"
   }, {
     path: "/",
     component: _b0f72b94,

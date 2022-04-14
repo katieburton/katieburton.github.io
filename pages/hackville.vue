@@ -2,7 +2,7 @@
   <div class="w-full">
     <img
       class="kb-img-max-h object-cover w-full"
-      src="~assets/images/HackvilleHeroBrandGuide.png"
+      src="~assets/images/HackvilleHeroUpdatedHorizontal.png"
       alt=""
     />
 
@@ -20,20 +20,42 @@
       <h2 class="overline mb-8">Project Info</h2>
       <div class="flex flex-col md:flex-row gap-16 md:gap-4">
         <div class="flex-1 flex gap-8 flex-col">
-          <p>
-            <strong>Project Type</strong>
-            Student Event
-          </p>
-          <p>
-            <strong>Team</strong>
-            Galaxia Wu, Wilson Truong, Daniella Sapiente
-          </p>
-          <p>
-            <strong>My Role</strong>
-            Design Lead, Branding, UI Design, and Visual Design
-          </p>
-          <p><strong>Timeline</strong> 3 weeks</p>
-          <p><strong>Tools</strong> Adobe XD, Illustrator</p>
+          <div class="flex gap-4">
+            <div class="flex-1">
+              <p>
+                <strong>Project Type</strong><br />
+                Student Event
+              </p>
+              <br />
+              <p>
+                <strong>Timeline</strong> <br />
+                3 weeks
+              </p>
+              <br />
+              <p>
+                <strong>Tools</strong> <br />
+                Xd<br />
+                Illustrator
+              </p>
+            </div>
+            <div class="flex-1">
+              <p>
+                <strong>Team</strong><br />
+                Galaxia Wu <br />
+                Wilson Truong <br />
+                Daniella Sapiente
+              </p>
+              <br />
+              <p>
+                <strong>My Role</strong><br />
+                Design Lead<br />
+                Brand Designer<br />
+                UI Designer<br />
+                Illustrator<br />
+                Visual Designer
+              </p>
+            </div>
+          </div>
         </div>
         <div class="flex-1">
           Hackville is Sheridan College's student-organized hackathon, that
@@ -176,25 +198,25 @@
         <div class="flex gap-4">
           <div
             style="background: #00194b"
-            class="flex-1 text-white text-center py-32"
+            class="text-sm md:text-lg flex-1 text-white text-center py-32"
           >
             #00194B
           </div>
           <div
             style="background: #2d65b5"
-            class="flex-1 text-white text-center py-32"
+            class="text-sm md:text-lg flex-1 text-white text-center py-32"
           >
             #2D65B5
           </div>
           <div
             style="background: #5d92d1"
-            class="flex-1 text-white text-center py-32"
+            class="text-sm md:text-lg flex-1 text-white text-center py-32"
           >
             #5D92D1
           </div>
           <div
             style="background: #cddcf1"
-            class="flex-1 text-grey-400 text-center py-32"
+            class="text-sm md:text-lg flex-1 text-grey-400 text-center py-32"
           >
             #CDDCF1
           </div>
@@ -202,13 +224,13 @@
         <div class="flex gap-4 mt-4 flex-col md:flex-row">
           <div
             style="background: #ffffff"
-            class="flex-1 text-grey-400 text-center py-6"
+            class="text-sm md:text-lg flex-1 text-grey-400 text-center py-6"
           >
             #FFFFFF
           </div>
           <div
             style="background: #141414"
-            class="flex-1 text-white text-center py-6"
+            class="text-sm md:text-lg flex-1 text-white text-center py-6"
           >
             #141414
           </div>
@@ -220,7 +242,7 @@
         style="background-color: #cddcf1"
         class="md:w-7/12 px-16 py-40 flex flex-col justify-center items-end"
       >
-        <div class="max-w-2xl p-4 max-h-80">
+        <div class="max-w-2xl p-4 md:max-h-80">
           <h3 class="subheading mb-4">Illustration Guide</h3>
           <p>
             I added three fundamental illustrative elements for my team to
@@ -240,7 +262,7 @@
           <img
             src="~assets/images/HackvilleIllustrationStroke.png"
             alt=""
-            class="mx-auto h-full w-auto"
+            class="mx-auto h-full w-auto object-fit"
           />
         </div>
       </div>
@@ -248,7 +270,7 @@
     <div>
       <img
         src="~assets/images/HackvilleIllustrationGrid.png"
-        class="kb-img-max-h md:kb-max-w"
+        class="kb-img-max-h md:kb-max-w mx-auto"
         alt=""
       />
     </div>
@@ -275,7 +297,7 @@
     <div class="my-16 text-center py-40 px-8">
       <div class="kb-max-w">
         <h3 class="subheading mb-8">Event Assets</h3>
-        <div class="flex kb-max-w gap-4">
+        <div class="flex flex-col md:flex-row kb-max-w gap-8 md:gap-4">
           <div>
             <img
               src="~assets/images/HackvilleEventAssets-1.png"
@@ -329,6 +351,12 @@
         decision in this case.
       </p>
     </div>
+    <nuxt-link to="/kdb">
+      <div class="flex justify-end text-right flex-col p-4">
+        <div class="text-lg">Next Project</div>
+        <div class="text-8xl main-font uppercase">Katja de Bourbon</div>
+      </div></nuxt-link
+    >
   </div>
 </template>
 

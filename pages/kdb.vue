@@ -2,7 +2,7 @@
   <div class="w-full">
     <img
       class="kb-img-max-h object-cover w-full"
-      src="~assets/images/kdb-t-1.png"
+      src="~assets/images/KatjaHeroMockup.png"
       alt=""
     />
     <div class="p-4 flex flex-col items-center text-center mx-auto my-8">
@@ -21,16 +21,38 @@
       <h2 class="overline mb-8">Project Info</h2>
       <div class="flex flex-col md:flex-row gap-16 md:gap-4">
         <div class="flex-1 flex gap-8 flex-col">
-          <p>
-            <strong>Project Type</strong>
-            Freelance
-          </p>
-          <p>
-            <strong>My Role</strong>
-            UI Design and Usability
-          </p>
-          <p><strong>Timeline</strong> 1 month</p>
-          <p><strong>Tools</strong> Webflow, Figma, Procreate</p>
+          <div class="flex gap-4">
+            <div class="flex-1">
+              <p>
+                <strong>Project Type</strong> <br />
+                Freelance
+              </p>
+              <br />
+              <p>
+                <strong>Timeline</strong> <br />
+                1 month
+              </p>
+              <br />
+              <p>
+                <strong>Tools</strong> <br />
+                Webflow
+                <br />
+                Figma <br />
+                Procreate
+              </p>
+            </div>
+            <div class="flex-1">
+              <p>
+                <strong>Team</strong> <br />
+                Solo
+              </p>
+              <br />
+              <p>
+                <strong>My Role</strong> <br />
+                UI Designer
+              </p>
+            </div>
+          </div>
         </div>
         <div class="flex-1">
           With cinematographer Katja de Bourbon, I designed and developed a
@@ -202,73 +224,21 @@
         />
       </div>
       <div class="subheading my-16 text-center">Doodle System</div>
-
-      <div
-        class="flex flex-wrap flex-col sm:flex-row gap-4 justify-between items-center"
-      >
-        <div class="doodle-item">
-          <p>
-            <strong>Crafty details to bring out personality</strong> <br />I
-            created a series of doodles using Procreate to add a personalized
-            touch to the pages and emphasize the collage quality desired by the
-            client.
-          </p>
-        </div>
-        <div class="doodle-item">
-          <img
-            class="kb-img-max-h my-6"
-            src="~assets/images/KatjaHandwrittenText.png"
-            alt=""
-          />
-          <p class="text-center grey mt-2">Handwritten text</p>
-        </div>
-        <div class="doodle-item">
-          <img
-            class="kb-img-max-h my-6"
-            src="~assets/images/KatjaNumbers.png"
-            alt=""
-          />
-          <p class="text-center grey mt-2">Numbers</p>
-        </div>
-        <div class="doodle-item flex flex-col gap-4">
-          <img
-            class="kb-img-max-h my-6"
-            src="~assets/images/KatjaStaticHighlights.png"
-            alt=""
-          />
-          <p class="text-center grey mt-2">Static Highlights</p>
-          <img
-            class="kb-img-max-h my-6"
-            src="~assets/images/KatjaDynamicHighlights.png"
-            alt=""
-          />
-          <p class="text-center grey mt-2">Dynamic Highlights</p>
-        </div>
-        <div class="doodle-item">
-          <img
-            class="kb-img-max-h my-6"
-            src="~assets/images/KatjaArrows.png"
-            alt=""
-          />
-          <p class="text-center grey mt-2">Arrow</p>
-        </div>
-        <div class="doodle-item">
-          <img
-            class="kb-img-max-h my-6"
-            src="~assets/images/KatjaUnderlines.png"
-            alt=""
-          />
-          <p class="text-center grey mt-2">Underlines</p>
-        </div>
-        <div class="w-full">
-          <img
-            class="kb-img-max-h my-6"
-            src="~assets/images/KatjaCircles.png"
-            alt=""
-          />
-          <p class="text-center grey mt-2">Circles</p>
-        </div>
+      <div class="md:w-6/12 my-8 p-4 mx-auto">
+        <p>
+          <strong>Crafty details to bring out personality</strong> <br />I
+          created a series of doodles using Procreate to add a personalized
+          touch to the pages and emphasize the collage quality desired by the
+          client.
+        </p>
       </div>
+      <img
+        class="kb-img-max-h w-full object-contain my-8"
+        src="~assets/images/KatjaDoodleSystem.png"
+        alt=""
+      />
+      <p class="text-center grey mt-2">Doodles</p>
+
       <div class="flex flex-wrap gap-4 justify-between items-center">
         <div class="doodle-item">
           <img
@@ -361,6 +331,12 @@
         has ended.
       </p>
     </div>
+    <nuxt-link to="/hackville">
+      <div class="flex justify-end text-right flex-col p-4">
+        <div class="text-lg">Next Project</div>
+        <div class="text-8xl main-font uppercase">Hackville 2020</div>
+      </div></nuxt-link
+    >
   </div>
 </template>
 
@@ -408,24 +384,6 @@ export default {
 
 .doodle-item {
   @apply self-center p-4;
-}
-
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
-}
-
-.video-container iframe,
-.video-container object,
-.video-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 @screen sm {
