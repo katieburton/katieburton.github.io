@@ -1,0 +1,31 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/case-study-card.js": "components/case-study-card.js",
+    "components/case-study-menu.js": "components/case-study-menu.js",
+    "components/gallery.js": "components/gallery.js",
+    "components/image-lightbox.js": "components/image-lightbox.js",
+    "components/name-header.js": "components/name-header.js",
+    "pages/about.js": "pages/about.js",
+    "pages/gallery.js": "pages/gallery.js",
+    "pages/hackville.js": "pages/hackville.js",
+    "pages/illustration.js": "pages/illustration.js",
+    "pages/index.js": "pages/index.js",
+    "pages/kdb.js": "pages/kdb.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/case-study-card.js": "components/case-study-card.js.map",
+    "components/case-study-menu.js": "components/case-study-menu.js.map",
+    "components/gallery.js": "components/gallery.js.map",
+    "components/image-lightbox.js": "components/image-lightbox.js.map",
+    "components/name-header.js": "components/name-header.js.map",
+    "pages/about.js": "pages/about.js.map",
+    "pages/gallery.js": "pages/gallery.js.map",
+    "pages/hackville.js": "pages/hackville.js.map",
+    "pages/illustration.js": "pages/illustration.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "pages/kdb.js": "pages/kdb.js.map",
+    "server.js": "server.js.map"
+  }
+}
